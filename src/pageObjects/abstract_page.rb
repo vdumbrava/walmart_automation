@@ -95,7 +95,7 @@ class Abstract_page
   end
 
   def clickOnElement (selector_type, element_path)
-    @@driver.find_element(selector_type => element_path).click
+      @@driver.find_element(selector_type => element_path).click
   end
 
   def selectExpenses (option1, *more)

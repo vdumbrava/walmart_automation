@@ -11,8 +11,9 @@ require_relative '../../../src/pageObjects/wal_5'
 Before  do
   @page = nil
   #page = AbstractPage.new(Selenium::WebDriver.for :firefox)
-  Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
-  @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
+  #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  @page = Abstract_page.new(Selenium::WebDriver.for :firefox)
 end
 
 After do
@@ -82,7 +83,7 @@ end
 
 
 Given(/^I navigate to wal_13$/) do
-  @nameToNumber = {"Find Out Where My Money Goes" => 1, "Make a Smart Spending Plan" => 2, "Build My Savings" => 3}
+  $nameToNumber = {"Find Out Where My Money Goes" => 1, "Make a Smart Spending Plan" => 2, "Build My Savings" => 3}
   @page
       .navigateToModuleMatrixPage.navigateToWal_1.navigateToWal_2.navigateToWal_3.navigateToWal_4.navigateToWal_5.navigateToWal_6
       .navigateToWal_7.navigateToWal_8.navigateToWal_9.navigateToWal_10.navigateToWal_11.navigateToWal_12.navigateToWal_13
@@ -90,7 +91,7 @@ end
 
 And(/^I select (.*)$/) do |name|
   sleep 25
-  @page.clickOnElement(:css,".box-label-"+@nameToNumber[name].to_s)
+  @page.clickOnElement(:css, ".box-label-" + $nameToNumber[name].to_s)
 end
 
 Then(/^I get to "([^"]*)" page$/) do |name|
@@ -99,20 +100,19 @@ Then(/^I get to "([^"]*)" page$/) do |name|
 end
 
 And(/^(.*) tab is expanded$/) do |name|
-  boxes = [1,2,3] - [@nameToNumber[name].to_i]
-  expect(@page.is_displayed?(css: (".box-label-"+@nameToNumber[name].to_s))).to eql true
+  boxes = [1,2,3] - [$nameToNumber[name].to_i]
+  expect(@page.is_displayed?(css: (".box-label-"+$nameToNumber[name].to_s))).to eql true
   expect(@page.is_displayed?(css: (".box-label-"+boxes[0].to_s))).to eql false
   expect(@page.is_displayed?(css: (".box-label-"+boxes[1].to_s))).to eql false
   @page
-       .getText(".box-label-"+@nameToNumber[name].to_s)
+       .getText(".box-label-"+$nameToNumber[name].to_s)
        .checkText(name, "20px", "MuseoSans, Arial, sans-serif", "rgba(255, 255, 255, 1)")
 end
 
 And(/^The "Submit" button inside (.*) is (.*)$/) do |name, color|
-  boxes = [1,2,3] - [@nameToNumber[name].to_i]
+  boxes = [1,2,3] - [$nameToNumber[name].to_i]
   colorToRGBA = {"Cerulean" => "rgb(0, 119, 163)", "Jade" => "rgb(2, 162, 161)", "Persian Green" => "rgb(0, 176, 101)"}
-  @page.submitButtonsColor(".fadein"+" .new-btn-"+@nameToNumber[name].to_s, colorToRGBA[color])
+  @page.submitButtonsColor(".fadein"+" .new-btn-"+$nameToNumber[name].to_s, colorToRGBA[color])
   @page.submitButtonsHidden(".fadeout"+" .new-btn-"+boxes[0].to_s, ".fadeout"+" .new-btn-"+boxes[1].to_s)
 end
-
 

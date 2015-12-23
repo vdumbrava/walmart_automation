@@ -3,7 +3,7 @@ Feature: To test the interaction on "Action Plan" page, wal_13
   Scenario: To navigate to wal_13 and select each category
 
     Given I navigate to wal_13
-    And I select "Find Out Where My Money Goes"
+    And I select"Find Out Where My Money Goes"
     Then I get to "My Action Plan" page
     And "Find Out Where My Money Goes" tab is expanded
     And The "Submit" button inside "Find Out Where My Money Goes" is "Cerulean"
