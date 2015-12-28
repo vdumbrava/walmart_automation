@@ -117,7 +117,7 @@ And(/^The "Submit" button inside (.*) is (.*)$/) do |name, color|
 end
 
 
-Given(/^I navigate to wal_1$/) do
+Given(/^I navigate to wal_(\d+)$/) do |arg1|
   @page.navigateToModuleMatrixPage
       .navigateToWal_1
 end
