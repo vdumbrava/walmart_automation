@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/features/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/features/home_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/home_page.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_1.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_1.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_10.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_10.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_11.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_11.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_12.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_12.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_13.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_13.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_14.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_14.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_15.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_15.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_2.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_2.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_3.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_3.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_4.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_4.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_5.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_5.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_6.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_6.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_7.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_7.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_8.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_8.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_9.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_9.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/features/KC.feature" afterPath="$PROJECT_DIR$/src/features/step_definitions/KC.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Walmart.iml" afterPath="$PROJECT_DIR$/.idea/Walmart.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
     <ignored path="Walmart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +41,7 @@
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality__4_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality (4) Coverage Results" MODIFIED="1450103626163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_4_selections__1_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with 4 selections (1) Coverage Results" MODIFIED="1450195932224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality - Coverage Results" MODIFIED="1450367940427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
-    <SUITE FILE_PATH="coverage/Walmart@KC_feature.coverage" NAME="KC.feature Coverage Results" MODIFIED="1451303799154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
+    <SUITE FILE_PATH="coverage/Walmart@KC_feature.coverage" NAME="KC.feature Coverage Results" MODIFIED="1451304450904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@action_plan_feature.coverage" NAME="action_plan.feature Coverage Results" MODIFIED="1450260379691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__3_.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality (3) Coverage Results" MODIFIED="1449582434941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_0_selections__2_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with 0 selections (2) Coverage Results" MODIFIED="1450193927905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
@@ -167,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <element signature="e#368#660#0" expanded="false" />
                 <element signature="e#373#656#0" expanded="false" />
@@ -191,7 +175,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CI_try.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KC.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/KC.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20238096">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CI_try.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CI_try.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -353,6 +347,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Walmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Walmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,7 +537,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/src/features/KC.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\features\step_definitions\KC.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -694,7 +710,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451303100862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CI test">
+      <created>1451304014829</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1451304014829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -731,7 +753,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="5" width="1920" height="1031" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16021505" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -739,7 +761,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33405405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33405405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1043,16 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1451301180557" expanded="true" signature="33:150" placeholder="Scenario: To navigate to wal_1 and select each category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/selenium-webdriver-2.48.1/lib/selenium/webdriver/common/driver_extensions/takes_screenshot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07482993">
@@ -1205,10 +1217,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CI_try.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="e#368#660#0" expanded="false" />
             <element signature="e#373#656#0" expanded="false" />
@@ -1231,9 +1248,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CI_try.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/KC.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20238096">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
