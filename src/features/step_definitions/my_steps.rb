@@ -116,3 +116,12 @@ And(/^The "Submit" button inside (.*) is (.*)$/) do |name, color|
   @page.submitButtonsHidden(".fadeout"+" .new-btn-"+boxes[0].to_s, ".fadeout"+" .new-btn-"+boxes[1].to_s)
 end
 
+
+Given(/^I navigate to wal_1$/) do
+  @page.navigateToModuleMatrixPage
+      .navigateToWal_1
+end
+
+Then(/^I make a print screen$/) do
+  page.save_screenshot 'CI_try.png'
+end
