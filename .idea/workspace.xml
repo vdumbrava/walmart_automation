@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/abstract_page.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/home_page.rb" afterPath="$PROJECT_DIR$/src/features/home_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Walmart.iml" afterPath="$PROJECT_DIR$/.idea/Walmart.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/features/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/features/home_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/home_page.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_1.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_1.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_10.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_10.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_11.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_11.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_12.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_12.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_13.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_13.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_14.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_14.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_15.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_15.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_2.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_2.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_3.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_3.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_4.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_4.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_5.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_5.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_6.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_6.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_7.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_7.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_8.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_8.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/wal_9.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/wal_9.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
@@ -43,7 +57,7 @@
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality__4_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality (4) Coverage Results" MODIFIED="1450103626163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_4_selections__1_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with 4 selections (1) Coverage Results" MODIFIED="1450195932224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality - Coverage Results" MODIFIED="1450367940427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
-    <SUITE FILE_PATH="coverage/Walmart@KC_feature.coverage" NAME="KC.feature Coverage Results" MODIFIED="1451302169329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
+    <SUITE FILE_PATH="coverage/Walmart@KC_feature.coverage" NAME="KC.feature Coverage Results" MODIFIED="1451303799154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@action_plan_feature.coverage" NAME="action_plan.feature Coverage Results" MODIFIED="1450260379691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__3_.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality (3) Coverage Results" MODIFIED="1449582434941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_0_selections__2_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with 0 selections (2) Coverage Results" MODIFIED="1450193927905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
@@ -71,31 +85,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="abstract_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.413794">
-              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="takes_screenshot.rb" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/selenium-webdriver-2.48.1/lib/selenium/webdriver/common/driver_extensions/takes_screenshot.rb">
+      <file leaf-file-name="wal_3.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_3.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+              <folding>
+                <element signature="e#168#215#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
+      <file leaf-file-name="wal_5.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_5.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37585035">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wal_7.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_7.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+              <folding>
+                <element signature="e#219#344#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wal_1.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wal_2.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="71" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="71" />
+              <folding>
+                <element signature="e#665#968#0" expanded="false" />
+                <element signature="e#972#1169#0" expanded="false" />
+                <element signature="e#1173#1362#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wal_4.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_4.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -105,71 +167,34 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
               <folding>
-                <element signature="e#432#724#0" expanded="false" />
-                <element signature="e#437#720#0" expanded="false" />
-                <element signature="e#732#772#0" expanded="false" />
-                <element signature="e#806#893#0" expanded="false" />
-                <element signature="e#937#1016#0" expanded="false" />
-                <element signature="e#1052#1134#0" expanded="false" />
-                <element signature="e#1173#1590#0" expanded="false" />
-                <element signature="e#1814#2433#0" expanded="false" />
-                <element signature="e#2486#2763#0" expanded="false" />
-                <element signature="e#2538#2683#0" expanded="false" />
-                <element signature="e#2795#2828#0" expanded="false" />
-                <element signature="e#2881#2911#0" expanded="false" />
-                <element signature="e#2946#3329#0" expanded="false" />
-                <element signature="e#3354#3449#0" expanded="false" />
-                <element signature="e#3485#3579#0" expanded="false" />
-                <element signature="e#3611#4072#0" expanded="false" />
-                <element signature="e#4123#4512#0" expanded="false" />
+                <element signature="e#368#660#0" expanded="false" />
+                <element signature="e#373#656#0" expanded="false" />
+                <element signature="e#668#708#0" expanded="false" />
+                <element signature="e#742#829#0" expanded="false" />
+                <element signature="e#873#952#0" expanded="false" />
+                <element signature="e#988#1070#0" expanded="false" />
+                <element signature="e#1109#1526#0" expanded="false" />
+                <element signature="e#1750#2369#0" expanded="false" />
+                <element signature="e#2422#2699#0" expanded="false" />
+                <element signature="e#2474#2619#0" expanded="false" />
+                <element signature="e#2731#2764#0" expanded="false" />
+                <element signature="e#2817#2847#0" expanded="false" />
+                <element signature="e#2882#3265#0" expanded="false" />
+                <element signature="e#3290#3385#0" expanded="false" />
+                <element signature="e#3421#3515#0" expanded="false" />
+                <element signature="e#3547#4008#0" expanded="false" />
+                <element signature="e#4059#4448#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KC.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <marker date="1451301180557" expanded="true" signature="33:150" placeholder="Scenario: To navigate to wal_1 and select each category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wal_7.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_7.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="e#185#310#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action_plan.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/action_plan.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action_plan_first_try.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/action_plan_first_try.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="CI_try.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CI_try.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -204,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/pageObjects/wal_4.rb" />
         <option value="$PROJECT_DIR$/src/pageObjects/wal_5.rb" />
         <option value="$PROJECT_DIR$/src/pageObjects/wal_6.rb" />
-        <option value="$PROJECT_DIR$/src/pageObjects/wal_1.rb" />
         <option value="$PROJECT_DIR$/src/features/action_plan.feature" />
         <option value="$PROJECT_DIR$/src/features/spenfings_interaction.feature" />
         <option value="$PROJECT_DIR$/src/features/spending_interaction_first_try.feature" />
@@ -215,6 +239,23 @@
         <option value="$PROJECT_DIR$/src/pageObjects/wal_7.rb" />
         <option value="$PROJECT_DIR$/src/features/KC.feature" />
         <option value="$PROJECT_DIR$/src/pageObjects/abstract_page.rb" />
+        <option value="$PROJECT_DIR$/src/pageObjects/wal_1.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_1.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_2.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_15.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_14.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_13.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_12.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_11.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_10.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_9.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_8.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_7.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_6.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_5.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_4.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/wal_3.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/home_page.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
       </list>
     </option>
@@ -311,47 +352,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pageObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Walmart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Walmart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Walmart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Walmart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,8 +370,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\features" />
       <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\features\step_definitions" />
+      <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\features" />
       <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\tests" />
     </key>
   </component>
@@ -687,50 +688,56 @@
       <option name="project" value="LOCAL" />
       <updated>1451301527654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CI test">
+      <created>1451303100862</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1451303100862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KC_feature - 2015.12.28 at 13h 23m 13s.xml">
-      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="KC_feature - 2015.12.28 at 13h 24m 00s.xml">
-      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="KC_feature - 2015.12.28 at 13h 25m 15s.xml">
-      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="KC_feature - 2015.12.28 at 13h 28m 00s.xml">
       <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="KC_feature - 2015.12.28 at 13h 29m 50s.xml">
       <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_13_and_select_each_category - 2015.12.18 at 17h 39m 11s.xml">
-      <configuration name="Scenario: To navigate to wal_13 and select each category" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="KC_feature - 2015.12.28 at 13h 45m 51s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_13_and_select_each_category_(2) - 2015.12.18 at 17h 33m 35s.xml">
-      <configuration name="Scenario: To navigate to wal_13 and select each category (2)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="KC_feature - 2015.12.28 at 13h 46m 17s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="action_plan_first_try_feature - 2015.12.18 at 16h 52m 28s.xml">
-      <configuration name="action_plan_first_try.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="KC_feature - 2015.12.28 at 13h 46m 53s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="action_plan_first_try_feature - 2015.12.18 at 16h 54m 39s.xml">
-      <configuration name="action_plan_first_try.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="KC_feature - 2015.12.28 at 13h 47m 38s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="action_plan_first_try_feature - 2015.12.18 at 17h 27m 12s.xml">
-      <configuration name="action_plan_first_try.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="KC_feature - 2015.12.28 at 13h 48m 30s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 50m 19s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 55m 58s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 57m 14s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="5" width="1920" height="1031" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16021505" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16021505" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33405405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -790,14 +797,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_6.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -805,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -813,7 +813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_1.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="19" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="30" />
@@ -821,29 +821,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_2.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="59" selection-end-column="30" />
           <folding>
-            <element signature="e#631#934#0" expanded="false" />
-            <element signature="e#938#1135#0" expanded="false" />
-            <element signature="e#1139#1328#0" expanded="false" />
+            <element signature="e#665#968#0" expanded="false" />
+            <element signature="e#972#1169#0" expanded="false" />
+            <element signature="e#1173#1362#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_3.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_3.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
-            <element signature="e#134#181#0" expanded="false" />
+            <element signature="e#168#215#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_4.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_4.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="56" />
@@ -851,7 +851,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_5.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_5.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
@@ -866,14 +866,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_6.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_6.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -881,7 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -889,7 +889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_1.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="19" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="30" />
@@ -897,29 +897,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_2.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="59" selection-end-column="30" />
           <folding>
-            <element signature="e#631#934#0" expanded="false" />
-            <element signature="e#938#1135#0" expanded="false" />
-            <element signature="e#1139#1328#0" expanded="false" />
+            <element signature="e#665#968#0" expanded="false" />
+            <element signature="e#972#1169#0" expanded="false" />
+            <element signature="e#1173#1362#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_3.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_3.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
-            <element signature="e#134#181#0" expanded="false" />
+            <element signature="e#168#215#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_4.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_4.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="56" />
@@ -927,7 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_5.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_5.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
@@ -942,24 +942,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_6.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_6.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_15.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22077923">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_14.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41396105">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -974,100 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60032105">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#631#934#0" expanded="false" />
-            <element signature="e#938#1135#0" expanded="false" />
-            <element signature="e#1139#1328#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_3.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#134#181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_4.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_5.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_6.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_9.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_10.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_11.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_12.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_13.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_8.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/spending_interaction.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41396105">
@@ -1140,16 +1024,6 @@
         <state vertical-scroll-proportion="0.41396105">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_7.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#185#310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,54 +1053,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
-          <folding>
-            <element signature="e#432#724#0" expanded="false" />
-            <element signature="e#437#720#0" expanded="false" />
-            <element signature="e#732#772#0" expanded="false" />
-            <element signature="e#806#893#0" expanded="false" />
-            <element signature="e#937#1016#0" expanded="false" />
-            <element signature="e#1052#1134#0" expanded="false" />
-            <element signature="e#1173#1590#0" expanded="false" />
-            <element signature="e#1814#2433#0" expanded="false" />
-            <element signature="e#2486#2763#0" expanded="false" />
-            <element signature="e#2538#2683#0" expanded="false" />
-            <element signature="e#2795#2828#0" expanded="false" />
-            <element signature="e#2881#2911#0" expanded="false" />
-            <element signature="e#2946#3329#0" expanded="false" />
-            <element signature="e#3354#3449#0" expanded="false" />
-            <element signature="e#3485#3579#0" expanded="false" />
-            <element signature="e#3611#4072#0" expanded="false" />
-            <element signature="e#4123#4512#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/selenium-webdriver-2.48.1/lib/selenium/webdriver/common/driver_extensions/takes_screenshot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.07482993">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.413794">
-          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_15.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37585035">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_14.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_13.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_12.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_11.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_10.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_9.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_8.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_6.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028911564">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_7.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding>
+            <element signature="e#219#344#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_5.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_4.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="71" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="71" />
+          <folding>
+            <element signature="e#665#968#0" expanded="false" />
+            <element signature="e#972#1169#0" expanded="false" />
+            <element signature="e#1173#1362#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_3.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding>
+            <element signature="e#168#215#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+          <folding>
+            <element signature="e#368#660#0" expanded="false" />
+            <element signature="e#373#656#0" expanded="false" />
+            <element signature="e#668#708#0" expanded="false" />
+            <element signature="e#742#829#0" expanded="false" />
+            <element signature="e#873#952#0" expanded="false" />
+            <element signature="e#988#1070#0" expanded="false" />
+            <element signature="e#1109#1526#0" expanded="false" />
+            <element signature="e#1750#2369#0" expanded="false" />
+            <element signature="e#2422#2699#0" expanded="false" />
+            <element signature="e#2474#2619#0" expanded="false" />
+            <element signature="e#2731#2764#0" expanded="false" />
+            <element signature="e#2817#2847#0" expanded="false" />
+            <element signature="e#2882#3265#0" expanded="false" />
+            <element signature="e#3290#3385#0" expanded="false" />
+            <element signature="e#3421#3515#0" expanded="false" />
+            <element signature="e#3547#4008#0" expanded="false" />
+            <element signature="e#4059#4448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CI_try.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

@@ -1,10 +1,9 @@
 require 'selenium-webdriver'
 require 'rubygems'
 require 'rspec'
-require_relative '../../pageObjects/abstract_page'
-require_relative '../../../src/pageObjects/home_page'
-require_relative '../../../src/pageObjects/wal_2'
-require_relative '../../../src/pageObjects/wal_5'
+require_relative '../../../src/features/step_definitions/abstract_page'
+require_relative '../../../src/features/step_definitions/home_page'
+
 
 
 #$pageTitlePath = {"Where Can You Cut Costs?" => ".savings-title", "My Action Plan" => ".small-plan-title", "Where Do You Spend the Most?" => ".title"}
@@ -124,5 +123,6 @@ Given(/^I navigate to wal_1$/) do
 end
 
 Then(/^I make a print screen$/) do
+  sleep 3
   @page.screenShot('CI_try.png')
 end
