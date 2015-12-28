@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/abstract_page.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pageObjects/home_page.rb" afterPath="$PROJECT_DIR$/src/features/home_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Walmart.iml" afterPath="$PROJECT_DIR$/.idea/Walmart.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/KC.feature" afterPath="$PROJECT_DIR$/src/features/KC.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
     <ignored path="Walmart.iws" />
@@ -41,6 +43,7 @@
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality__4_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality (4) Coverage Results" MODIFIED="1450103626163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_4_selections__1_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with 4 selections (1) Coverage Results" MODIFIED="1450195932224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality - Coverage Results" MODIFIED="1450367940427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
+    <SUITE FILE_PATH="coverage/Walmart@KC_feature.coverage" NAME="KC.feature Coverage Results" MODIFIED="1451302169329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@action_plan_feature.coverage" NAME="action_plan.feature Coverage Results" MODIFIED="1450260379691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__3_.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality (3) Coverage Results" MODIFIED="1449582434941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_0_selections__2_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with 0 selections (2) Coverage Results" MODIFIED="1450193927905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
@@ -69,19 +72,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="abstract_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/abstract_page.rb">
+        <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.24138">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.413794">
+              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/home_page.rb">
+      <file leaf-file-name="takes_screenshot.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/selenium-webdriver-2.48.1/lib/selenium/webdriver/common/driver_extensions/takes_screenshot.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_page.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37585035">
               <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
@@ -92,36 +105,38 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+              <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
               <folding>
-                <element signature="e#431#723#0" expanded="false" />
-                <element signature="e#436#719#0" expanded="false" />
-                <element signature="e#731#771#0" expanded="false" />
-                <element signature="e#805#892#0" expanded="false" />
-                <element signature="e#936#1015#0" expanded="false" />
-                <element signature="e#1051#1133#0" expanded="false" />
-                <element signature="e#1172#1589#0" expanded="false" />
-                <element signature="e#1813#2432#0" expanded="false" />
-                <element signature="e#2485#2762#0" expanded="false" />
-                <element signature="e#2537#2682#0" expanded="false" />
-                <element signature="e#2794#2827#0" expanded="false" />
-                <element signature="e#2880#2910#0" expanded="false" />
-                <element signature="e#2945#3328#0" expanded="false" />
-                <element signature="e#3353#3448#0" expanded="false" />
-                <element signature="e#3484#3578#0" expanded="false" />
-                <element signature="e#3610#4071#0" expanded="false" />
-                <element signature="e#4122#4511#0" expanded="false" />
+                <element signature="e#432#724#0" expanded="false" />
+                <element signature="e#437#720#0" expanded="false" />
+                <element signature="e#732#772#0" expanded="false" />
+                <element signature="e#806#893#0" expanded="false" />
+                <element signature="e#937#1016#0" expanded="false" />
+                <element signature="e#1052#1134#0" expanded="false" />
+                <element signature="e#1173#1590#0" expanded="false" />
+                <element signature="e#1814#2433#0" expanded="false" />
+                <element signature="e#2486#2763#0" expanded="false" />
+                <element signature="e#2538#2683#0" expanded="false" />
+                <element signature="e#2795#2828#0" expanded="false" />
+                <element signature="e#2881#2911#0" expanded="false" />
+                <element signature="e#2946#3329#0" expanded="false" />
+                <element signature="e#3354#3449#0" expanded="false" />
+                <element signature="e#3485#3579#0" expanded="false" />
+                <element signature="e#3611#4072#0" expanded="false" />
+                <element signature="e#4123#4512#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KC.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KC.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14455782">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <marker date="1451301180557" expanded="true" signature="33:150" placeholder="Scenario: To navigate to wal_1 and select each category" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/pageObjects/home_page.rb" />
         <option value="$PROJECT_DIR$/src/features/action_plan_first_try.feature" />
         <option value="$PROJECT_DIR$/src/pageObjects/wal_7.rb" />
-        <option value="$PROJECT_DIR$/src/pageObjects/abstract_page.rb" />
         <option value="$PROJECT_DIR$/src/features/KC.feature" />
+        <option value="$PROJECT_DIR$/src/pageObjects/abstract_page.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
       </list>
     </option>
@@ -354,43 +369,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\features" />
       <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\features\step_definitions" />
       <recent name="C:\Users\vasilica.dumbrava\RubymineProjects\Walmart\src\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: To navigate to wal_13 and select each category">
-    <configuration default="false" name="Scenario: To navigate to wal_2 and test the slider functionality -" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="Walmart" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/src" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/src/features/estimation_interaction.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^To navigate to wal_2 and test the slider functionality \-$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.KC.feature">
     <configuration default="false" name="Scenario: To navigate to wal_13 and select each category (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="Walmart" />
@@ -519,6 +503,38 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
+    <configuration default="false" name="KC.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="Walmart" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/src" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/src/features/KC.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -632,19 +648,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_2 and test the slider functionality -" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.action_plan_first_try.feature" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.action_plan_first_try.feature" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.KC.feature" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.action_plan_first_try.feature" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_2 and test the slider functionality -" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.KC.feature" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.action_plan_first_try.feature" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: To navigate to wal_13 and select each category (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -665,30 +681,36 @@
       <option name="project" value="LOCAL" />
       <updated>1450889817891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CI test">
+      <created>1451301527654</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1451301527654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="KC_feature - 2015.12.28 at 13h 23m 13s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 24m 00s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 25m 15s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 28m 00s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="KC_feature - 2015.12.28 at 13h 29m 50s.xml">
+      <configuration name="KC.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
     <history-entry file="Scenario__To_navigate_to_wal_13_and_select_each_category - 2015.12.18 at 17h 39m 11s.xml">
       <configuration name="Scenario: To navigate to wal_13 and select each category" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_13_and_select_each_category_(1) - 2015.12.17 at 18h 28m 29s.xml">
-      <configuration name="Scenario: To navigate to wal_13 and select each category (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_13_and_select_each_category_(1) - 2015.12.17 at 18h 37m 35s.xml">
-      <configuration name="Scenario: To navigate to wal_13 and select each category (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__To_navigate_to_wal_13_and_select_each_category_(2) - 2015.12.18 at 17h 33m 35s.xml">
       <configuration name="Scenario: To navigate to wal_13 and select each category (2)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality_- - 2015.12.17 at 17h 57m 06s.xml">
-      <configuration name="Scenario: To navigate to wal_2 and test the slider functionality -" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality_- - 2015.12.17 at 17h 58m 13s.xml">
-      <configuration name="Scenario: To navigate to wal_2 and test the slider functionality -" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality_- - 2015.12.17 at 17h 59m 57s.xml">
-      <configuration name="Scenario: To navigate to wal_2 and test the slider functionality -" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="action_plan_first_try_feature - 2015.12.18 at 16h 52m 28s.xml">
       <configuration name="action_plan_first_try.feature" configurationId="CucumberRunConfigurationType" />
@@ -702,9 +724,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="5" width="1920" height="1031" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16021505" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16021505" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -758,7 +780,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firefox" />
-    <option name="LAST_COMMIT_MESSAGE" value="firefox" />
+    <MESSAGE value="CI test" />
+    <option name="LAST_COMMIT_MESSAGE" value="CI test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,13 +790,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/test_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="2" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pageObjects/wal_6.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -781,7 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/abstract_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -789,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -857,7 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/abstract_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -865,7 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/home_page.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1137,22 +1153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/home_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/abstract_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.24138">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/action_plan.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1169,36 +1169,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
+    <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#431#723#0" expanded="false" />
-            <element signature="e#436#719#0" expanded="false" />
-            <element signature="e#731#771#0" expanded="false" />
-            <element signature="e#805#892#0" expanded="false" />
-            <element signature="e#936#1015#0" expanded="false" />
-            <element signature="e#1051#1133#0" expanded="false" />
-            <element signature="e#1172#1589#0" expanded="false" />
-            <element signature="e#1813#2432#0" expanded="false" />
-            <element signature="e#2485#2762#0" expanded="false" />
-            <element signature="e#2537#2682#0" expanded="false" />
-            <element signature="e#2794#2827#0" expanded="false" />
-            <element signature="e#2880#2910#0" expanded="false" />
-            <element signature="e#2945#3328#0" expanded="false" />
-            <element signature="e#3353#3448#0" expanded="false" />
-            <element signature="e#3484#3578#0" expanded="false" />
-            <element signature="e#3610#4071#0" expanded="false" />
-            <element signature="e#4122#4511#0" expanded="false" />
+            <marker date="1451301180557" expanded="true" signature="33:150" placeholder="Scenario: To navigate to wal_1 and select each category" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14455782">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+          <folding>
+            <element signature="e#432#724#0" expanded="false" />
+            <element signature="e#437#720#0" expanded="false" />
+            <element signature="e#732#772#0" expanded="false" />
+            <element signature="e#806#893#0" expanded="false" />
+            <element signature="e#937#1016#0" expanded="false" />
+            <element signature="e#1052#1134#0" expanded="false" />
+            <element signature="e#1173#1590#0" expanded="false" />
+            <element signature="e#1814#2433#0" expanded="false" />
+            <element signature="e#2486#2763#0" expanded="false" />
+            <element signature="e#2538#2683#0" expanded="false" />
+            <element signature="e#2795#2828#0" expanded="false" />
+            <element signature="e#2881#2911#0" expanded="false" />
+            <element signature="e#2946#3329#0" expanded="false" />
+            <element signature="e#3354#3449#0" expanded="false" />
+            <element signature="e#3485#3579#0" expanded="false" />
+            <element signature="e#3611#4072#0" expanded="false" />
+            <element signature="e#4123#4512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/selenium-webdriver-2.48.1/lib/selenium/webdriver/common/driver_extensions/takes_screenshot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/abstract_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.413794">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/home_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37585035">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>

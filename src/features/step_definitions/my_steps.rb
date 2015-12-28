@@ -6,6 +6,7 @@ require_relative '../../../src/pageObjects/home_page'
 require_relative '../../../src/pageObjects/wal_2'
 require_relative '../../../src/pageObjects/wal_5'
 
+
 #$pageTitlePath = {"Where Can You Cut Costs?" => ".savings-title", "My Action Plan" => ".small-plan-title", "Where Do You Spend the Most?" => ".title"}
 
 Before  do
@@ -123,5 +124,5 @@ Given(/^I navigate to wal_1$/) do
 end
 
 Then(/^I make a print screen$/) do
-  page.save_screenshot 'CI_try.png'
+  @page.screenShot('CI_try.png')
 end
