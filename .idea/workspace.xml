@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
     <ignored path="Walmart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,20 +106,20 @@
       <file leaf-file-name="my_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44084278">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.55105346">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
               <folding>
-                <element signature="e#838#925#0" expanded="false" />
-                <element signature="e#969#1048#0" expanded="false" />
-                <element signature="e#1205#1622#0" expanded="false" />
-                <element signature="e#1656#1812#0" expanded="false" />
-                <element signature="e#2570#2715#0" expanded="false" />
-                <element signature="e#2827#2860#0" expanded="false" />
-                <element signature="e#2913#2943#0" expanded="false" />
-                <element signature="e#2978#3361#0" expanded="false" />
-                <element signature="e#3643#4104#0" expanded="false" />
-                <element signature="e#4155#4544#0" expanded="false" />
-                <element signature="e#4578#4642#0" expanded="false" />
+                <element signature="e#848#935#0" expanded="false" />
+                <element signature="e#979#1058#0" expanded="false" />
+                <element signature="e#1215#1632#0" expanded="false" />
+                <element signature="e#1666#1822#0" expanded="false" />
+                <element signature="e#2580#2725#0" expanded="false" />
+                <element signature="e#2837#2870#0" expanded="false" />
+                <element signature="e#2923#2953#0" expanded="false" />
+                <element signature="e#2988#3371#0" expanded="false" />
+                <element signature="e#3653#4114#0" expanded="false" />
+                <element signature="e#4165#4554#0" expanded="false" />
+                <element signature="e#4588#4652#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -739,7 +740,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451914294684</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="CI test">
+      <created>1451914525002</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1451914525002</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1214,20 +1221,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44084278">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.55105346">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
-            <element signature="e#838#925#0" expanded="false" />
-            <element signature="e#969#1048#0" expanded="false" />
-            <element signature="e#1205#1622#0" expanded="false" />
-            <element signature="e#1656#1812#0" expanded="false" />
-            <element signature="e#2570#2715#0" expanded="false" />
-            <element signature="e#2827#2860#0" expanded="false" />
-            <element signature="e#2913#2943#0" expanded="false" />
-            <element signature="e#2978#3361#0" expanded="false" />
-            <element signature="e#3643#4104#0" expanded="false" />
-            <element signature="e#4155#4544#0" expanded="false" />
-            <element signature="e#4578#4642#0" expanded="false" />
+            <element signature="e#848#935#0" expanded="false" />
+            <element signature="e#979#1058#0" expanded="false" />
+            <element signature="e#1215#1632#0" expanded="false" />
+            <element signature="e#1666#1822#0" expanded="false" />
+            <element signature="e#2580#2725#0" expanded="false" />
+            <element signature="e#2837#2870#0" expanded="false" />
+            <element signature="e#2923#2953#0" expanded="false" />
+            <element signature="e#2988#3371#0" expanded="false" />
+            <element signature="e#3653#4114#0" expanded="false" />
+            <element signature="e#4165#4554#0" expanded="false" />
+            <element signature="e#4588#4652#0" expanded="false" />
           </folding>
         </state>
       </provider>
