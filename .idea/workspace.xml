@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/spending_interaction_first_try.feature" afterPath="$PROJECT_DIR$/src/features/spending_interaction_first_try.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
     <ignored path="Walmart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,12 +107,13 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
               <folding>
                 <element signature="e#682#769#0" expanded="false" />
                 <element signature="e#813#892#0" expanded="false" />
                 <element signature="e#928#1010#0" expanded="false" />
                 <element signature="e#1049#1466#0" expanded="false" />
+                <element signature="e#1500#1656#0" expanded="false" />
                 <element signature="e#1690#2309#0" expanded="false" />
                 <element signature="e#2362#2639#0" expanded="false" />
                 <element signature="e#2414#2559#0" expanded="false" />
@@ -148,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spending_interaction_first_try.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spending_interaction_first_try.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/spending_interaction_first_try.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9318181">
+            <state vertical-scroll-proportion="0.0">
               <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
               <folding />
             </state>
@@ -168,18 +169,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CI_try.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CI_try.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KC.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KC.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.11038961">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -242,8 +236,8 @@
         <option value="$PROJECT_DIR$/src/features/step_definitions/wal_4.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/wal_3.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/home_page.rb" />
-        <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
         <option value="$PROJECT_DIR$/src/features/spending_interaction_first_try.feature" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
       </list>
     </option>
   </component>
@@ -718,7 +712,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451908399735</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CI test">
+      <created>1451909748460</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1451909748460</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1151,37 +1151,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding>
-            <element signature="e#682#769#0" expanded="false" />
-            <element signature="e#813#892#0" expanded="false" />
-            <element signature="e#928#1010#0" expanded="false" />
-            <element signature="e#1049#1466#0" expanded="false" />
-            <element signature="e#1690#2309#0" expanded="false" />
-            <element signature="e#2362#2639#0" expanded="false" />
-            <element signature="e#2414#2559#0" expanded="false" />
-            <element signature="e#2671#2704#0" expanded="false" />
-            <element signature="e#2757#2787#0" expanded="false" />
-            <element signature="e#2822#3205#0" expanded="false" />
-            <element signature="e#3230#3325#0" expanded="false" />
-            <element signature="e#3361#3455#0" expanded="false" />
-            <element signature="e#3487#3948#0" expanded="false" />
-            <element signature="e#3999#4388#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/action_plan.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1208,8 +1177,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/spending_interaction_first_try.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9318181">
+        <state vertical-scroll-proportion="0.0">
           <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+          <folding>
+            <element signature="e#682#769#0" expanded="false" />
+            <element signature="e#813#892#0" expanded="false" />
+            <element signature="e#928#1010#0" expanded="false" />
+            <element signature="e#1049#1466#0" expanded="false" />
+            <element signature="e#1500#1656#0" expanded="false" />
+            <element signature="e#1690#2309#0" expanded="false" />
+            <element signature="e#2362#2639#0" expanded="false" />
+            <element signature="e#2414#2559#0" expanded="false" />
+            <element signature="e#2671#2704#0" expanded="false" />
+            <element signature="e#2757#2787#0" expanded="false" />
+            <element signature="e#2822#3205#0" expanded="false" />
+            <element signature="e#3230#3325#0" expanded="false" />
+            <element signature="e#3361#3455#0" expanded="false" />
+            <element signature="e#3487#3948#0" expanded="false" />
+            <element signature="e#3999#4388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11038961">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
