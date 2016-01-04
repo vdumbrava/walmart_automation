@@ -10,10 +10,10 @@ require_relative '../../../src/features/step_definitions/home_page'
 
 Before  do
   @page = nil
-  #page = AbstractPage.new(Selenium::WebDriver.for :firefox)
+
   #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
-  #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
-  @page = Abstract_page.new(Selenium::WebDriver.for :firefox)
+  @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  #@page = Abstract_page.new(Selenium::WebDriver.for :firefox)
 end
 
 After do
@@ -123,6 +123,6 @@ Given(/^I navigate to wal_(\d+)$/) do |arg1|
 end
 
 Then(/^I make a print screen$/) do
-  sleep 3
+  sleep 5
   @page.screenShot('CI_try.png')
 end
