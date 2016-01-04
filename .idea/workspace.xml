@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
     <ignored path="Walmart.iws" />
@@ -83,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tst.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tst.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tst.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -100,22 +99,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_steps.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="my_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.586206">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.4699187">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
-                <element signature="e#978#1057#0" expanded="false" />
-                <element signature="e#1214#1631#0" expanded="false" />
-                <element signature="e#1665#1821#0" expanded="false" />
-                <element signature="e#2579#2724#0" expanded="false" />
-                <element signature="e#2836#2869#0" expanded="false" />
-                <element signature="e#2922#2952#0" expanded="false" />
-                <element signature="e#2987#3370#0" expanded="false" />
-                <element signature="e#3652#4113#0" expanded="false" />
-                <element signature="e#4164#4553#0" expanded="false" />
-                <element signature="e#4587#4651#0" expanded="false" />
+                <element signature="e#979#1058#0" expanded="false" />
+                <element signature="e#1215#1632#0" expanded="false" />
+                <element signature="e#1666#1822#0" expanded="false" />
+                <element signature="e#2580#2725#0" expanded="false" />
+                <element signature="e#2837#2870#0" expanded="false" />
+                <element signature="e#2923#2953#0" expanded="false" />
+                <element signature="e#2988#3371#0" expanded="false" />
+                <element signature="e#3653#4114#0" expanded="false" />
+                <element signature="e#4165#4554#0" expanded="false" />
+                <element signature="e#4588#4652#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -209,8 +208,8 @@
         <option value="$PROJECT_DIR$/src/features/step_definitions/home_page.rb" />
         <option value="$PROJECT_DIR$/src/features/spending_interaction_first_try.feature" />
         <option value="$PROJECT_DIR$/src/features/action_plan.feature" />
-        <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
       </list>
     </option>
   </component>
@@ -740,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451916444196</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="CI test">
+      <created>1451917279036</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1451917279036</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1212,23 +1217,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.586206">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#978#1057#0" expanded="false" />
-            <element signature="e#1214#1631#0" expanded="false" />
-            <element signature="e#1665#1821#0" expanded="false" />
-            <element signature="e#2579#2724#0" expanded="false" />
-            <element signature="e#2836#2869#0" expanded="false" />
-            <element signature="e#2922#2952#0" expanded="false" />
-            <element signature="e#2987#3370#0" expanded="false" />
-            <element signature="e#3652#4113#0" expanded="false" />
-            <element signature="e#4164#4553#0" expanded="false" />
-            <element signature="e#4587#4651#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/tst.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
@@ -1239,9 +1230,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tst.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4699187">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#979#1058#0" expanded="false" />
+            <element signature="e#1215#1632#0" expanded="false" />
+            <element signature="e#1666#1822#0" expanded="false" />
+            <element signature="e#2580#2725#0" expanded="false" />
+            <element signature="e#2837#2870#0" expanded="false" />
+            <element signature="e#2923#2953#0" expanded="false" />
+            <element signature="e#2988#3371#0" expanded="false" />
+            <element signature="e#3653#4114#0" expanded="false" />
+            <element signature="e#4165#4554#0" expanded="false" />
+            <element signature="e#4588#4652#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
