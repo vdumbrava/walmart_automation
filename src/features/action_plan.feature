@@ -3,7 +3,7 @@ Feature: To test the interaction on "Action Plan" page, wal_13
   Scenario Outline: To navigate to wal_13 and select each category
 
     Given I navigate to wal_13
-    And I select <name>
+    And I choose <name>
     Then I get to "My Action Plan" page
     And <name> tab is expanded
     And The "Submit" button inside <name> is <color>

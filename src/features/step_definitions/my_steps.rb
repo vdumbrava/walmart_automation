@@ -89,7 +89,7 @@ Given(/^I navigate to wal_13$/) do
       .navigateToWal_7.navigateToWal_8.navigateToWal_9.navigateToWal_10.navigateToWal_11.navigateToWal_12.navigateToWal_13
 end
 
-And(/^I select (.*)$/) do |name|
+And(/^I choose (.*)$/) do |name|
   sleep 25
   @page.clickOnElement(:css, ".box-label-" + $nameToNumber[name].to_s)
 end
