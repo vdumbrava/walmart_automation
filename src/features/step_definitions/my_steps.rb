@@ -14,12 +14,12 @@ Before  do
   #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
   # @page = Abstract_page.new(Selenium::WebDriver.for(
   #     :remote,
-  #     url: 'http://tim-vm-020/:4444/wd/hub',
+  #     url: 'http://localhost:4444/wd/hub',
   #     desired_capabilities: :firefox)
   # )
 
-  @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
-  #@page = Abstract_page.new(Selenium::WebDriver.for :firefox)
+  #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  @page = Abstract_page.new(Selenium::WebDriver.for :firefox)
 end
 
 After do
@@ -130,5 +130,5 @@ end
 
 Then(/^I make a print screen$/) do
   sleep 5
-  @page.screenShot('CI_try.png')
+  @page.screenShot
 end
