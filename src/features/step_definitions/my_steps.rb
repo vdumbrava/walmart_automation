@@ -19,9 +19,9 @@ Before  do
   # )
 
   #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
-  @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
 
-  #@page = Abstract_page.new(Selenium::WebDriver.for :firefox)
+  @page = Abstract_page.new(Selenium::WebDriver.for :firefox)
 end
 
 After do
