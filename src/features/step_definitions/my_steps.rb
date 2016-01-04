@@ -18,8 +18,8 @@ Before  do
   #     desired_capabilities: :firefox)
   # )
 
-  #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
-  @page = Abstract_page.new(Selenium::WebDriver.for :firefox)
+  @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  #@page = Abstract_page.new(Selenium::WebDriver.for :firefox)
 end
 
 After do

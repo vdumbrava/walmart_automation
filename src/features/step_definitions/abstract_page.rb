@@ -161,7 +161,7 @@ class Abstract_page
   end
 
   def screenShot
-    @@driver.save_screenshot("./screen.png")
+    @@driver.save_screenshot("./screenshots/screen.png")
   end
 end
 
