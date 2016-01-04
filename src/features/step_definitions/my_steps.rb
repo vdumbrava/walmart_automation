@@ -14,7 +14,7 @@ Before  do
   #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
   @page = Abstract_page.new(Selenium::WebDriver.for(
       :remote,
-      url: 'http://localhost:4444/wd/hub',
+      url: 'http://tim-vm-020/:4444/wd/hub',
       desired_capabilities: :firefox)
   )
   #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
