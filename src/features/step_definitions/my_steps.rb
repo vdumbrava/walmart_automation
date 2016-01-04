@@ -11,14 +11,16 @@ require_relative '../../../src/features/step_definitions/home_page'
 Before  do
   @page = nil
 
-  #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
+
   # @page = Abstract_page.new(Selenium::WebDriver.for(
   #     :remote,
   #     url: 'http://localhost:4444/wd/hub',
   #     desired_capabilities: :firefox)
   # )
 
+  Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
   @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+
   #@page = Abstract_page.new(Selenium::WebDriver.for :firefox)
 end
 
@@ -129,6 +131,6 @@ Given(/^I navigate to wal_1$/) do
 end
 
 Then(/^I make a print screen$/) do
-  sleep 5
-  @page.screenShot
+  sleep 2
+  #@page.screenShot
 end

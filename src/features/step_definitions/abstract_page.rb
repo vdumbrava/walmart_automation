@@ -25,6 +25,7 @@ class Abstract_page
     @@driver.manage.window.maximize
     @@driver.navigate.to("http://tim-vm-020/default.html")
     sleep 5
+    @@driver.save_screenshot 'tst.png'
     return HomePage.new(@@driver)
   end
 
@@ -161,7 +162,7 @@ class Abstract_page
   end
 
   def screenShot
-    @@driver.save_screenshot("./screenshots/screen.png")
+    @@driver.save_screenshot 'screen.png'
   end
 end
 
