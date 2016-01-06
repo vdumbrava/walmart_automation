@@ -142,6 +142,10 @@ Then(/^I make a print screen$/) do ||
 end
 
 When(/^I select each checkbox from (.*)$/) do |name|
+  $steps  = { "Find Out Where My Money Goes" => ["Figure out how much money I bring home each month", "Track my spending for 1 month", "List my spending needs vs. spending wants"],
+              "Make a Smart Spending Plan" => ["Set short, medium, and long-term savings goals", "Identify 3 ways to cut expenses from my monthly routine", "Make a plan to pay off credit card or other debt"],
+              "Build My Savings" => ["Open an account where I can deposit savings", "Set aside a percentage of each paycheck for savings", "Cut monthly spending in at least 1 area and deposit the savings"]
+  }
 
   for i in 1..3
   @page.clickOnElement(:css, "#inner-content > div > div.action-plan.show.fadein > div.checkboxes-container.ng-scope > div.options-container.options-container-" + $nameToNumber[name].to_s + ".show.fadein > form > div:nth-child(" + i.to_s + ") > label")
@@ -149,12 +153,7 @@ When(/^I select each checkbox from (.*)$/) do |name|
 
  end
 
-
-Then(/^All the steps from (.*) are present in the Action Plan$/) do |name|
-  $steps  = { "Find Out Where My Money Goes" => ["Figure out how much money I bring home each month", "Track my spending for 1 month", "List my spending needs vs. spending wants"],
-              "Make a Smart Spending Plan" => ["Set short, medium, and long-term savings goals", "Identify 3 ways to cut expenses from my monthly routine", "Make a plan to pay off credit card or other debt"],
-              "Build My Savings" => ["Open an account where I can deposit savings", "Set aside a percentage of each paycheck for savings", "Cut monthly spending in at least 1 area and deposit the savings"]
-  }
+Then(/^The selected steps from (.*) are present in the Action Plan$/) do |name|
 
   for i in 0..2
   @page.getText("#inner-content > div > div.action-plan.show.fadein > div.small-plan.ng-scope > div.std-option-container > div:nth-child(" + (i+1).to_s + ") > div")
@@ -163,3 +162,25 @@ Then(/^All the steps from (.*) are present in the Action Plan$/) do |name|
 
 end
 
+And(/^I deselect one of the checkboxes from (.*)$/) do |name|
+  deselectedStep = rand(1..3)
+   $steps[name].delete($steps[name][deselectedStep-1])
+  @page.clickOnElement(:css, "#inner-content > div > div.action-plan.show.fadein > div.checkboxes-container.ng-scope > div.options-container.options-container-" + $nameToNumber[name].to_s + ".show.fadein > form > div:nth-child(" + deselectedStep.to_s + ") > label")
+  sleep 2
+end
+
+
+Then(/^The deselected steps from (.*) are not present in the Action Plan$/) do |name|
+  for i in 0..1
+    @page.getText("#inner-content > div > div.action-plan.show.fadein > div.small-plan.ng-scope > div.std-option-container > div:nth-child(" + (i+1).to_s + ") > div")
+    @page.checkText($steps[name][i], "20px", "MuseoSans, Arial, sans-serif", "rgba(127, 127, 127, 1)")
+  end
+end
+
+And(/^I deselect and select back one of the checkboxes from (.*)$/) do |name|
+  deselectedStep = rand(1..3)
+  @page.clickOnElement(:css, "#inner-content > div > div.action-plan.show.fadein > div.checkboxes-container.ng-scope > div.options-container.options-container-" + $nameToNumber[name].to_s + ".show.fadein > form > div:nth-child(" + deselectedStep.to_s + ") > label")
+  sleep 2
+  @page.clickOnElement(:css, "#inner-content > div > div.action-plan.show.fadein > div.checkboxes-container.ng-scope > div.options-container.options-container-" + $nameToNumber[name].to_s + ".show.fadein > form > div:nth-child(" + deselectedStep.to_s + ") > label")
+  sleep 2
+end
