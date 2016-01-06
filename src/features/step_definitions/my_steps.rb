@@ -1,6 +1,8 @@
 require 'selenium-webdriver'
 require 'rubygems'
 require 'rspec'
+require 'selenium/client'
+require 'selenium/server'
 require_relative '../../../src/features/step_definitions/abstract_page'
 require_relative '../../../src/features/step_definitions/home_page'
 
@@ -18,10 +20,13 @@ Before  do
   #     desired_capabilities: :firefox)
   # )
 
-  #Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
-  #@page = Abstract_page.new(Selenium::WebDriver.for :chrome)
+  Selenium::WebDriver::Chrome.driver_path = "e:/Training Automation/chromedriver.exe"
+  @page = Abstract_page.new(Selenium::WebDriver.for :chrome)
 
-  @page = Abstract_page.new(Selenium::WebDriver.for :firefox)
+  #@page = Abstract_page.new(Selenium::WebDriver.for :firefox)
+
+  #@page = Abstract_page.new(Selenium::WebDriver.for(:remote, :url => 'http://localhost:4444/wd/hub', :desired_capabilities => :firefox))
+
 end
 
 After do
@@ -105,6 +110,7 @@ end
 Then(/^I get to "([^"]*)" page$/) do |name|
   sleep 10
   expect(@page.getTextString(:css, $pageTitlePath[name])).to eql name
+  @page.screenShot(name + ".png")
 end
 
 And(/^(.*) tab is expanded$/) do |name|
@@ -130,7 +136,30 @@ Given(/^I navigate to wal_1$/) do
       .navigateToWal_1
 end
 
-Then(/^I make a print screen$/) do
-  sleep 2
-  #@page.screenShot
+Then(/^I make a print screen$/) do ||
+  sleep 5
+  @page.screenShot('doi.png')
 end
+
+When(/^I select each checkbox from (.*)$/) do |name|
+
+  for i in 1..3
+  @page.clickOnElement(:css, "#inner-content > div > div.action-plan.show.fadein > div.checkboxes-container.ng-scope > div.options-container.options-container-" + $nameToNumber[name].to_s + ".show.fadein > form > div:nth-child(" + i.to_s + ") > label")
+  end
+
+ end
+
+
+Then(/^All the steps from (.*) are present in the Action Plan$/) do |name|
+  $steps  = { "Find Out Where My Money Goes" => ["Figure out how much money I bring home each month", "Track my spending for 1 month", "List my spending needs vs. spending wants"],
+              "Make a Smart Spending Plan" => ["Set short, medium, and long-term savings goals", "Identify 3 ways to cut expenses from my monthly routine", "Make a plan to pay off credit card or other debt"],
+              "Build My Savings" => ["Open an account where I can deposit savings", "Set aside a percentage of each paycheck for savings", "Cut monthly spending in at least 1 area and deposit the savings"]
+  }
+
+  for i in 0..2
+  @page.getText("#inner-content > div > div.action-plan.show.fadein > div.small-plan.ng-scope > div.std-option-container > div:nth-child(" + (i+1).to_s + ") > div")
+  @page.checkText($steps[name][i], "20px", "MuseoSans, Arial, sans-serif", "rgba(127, 127, 127, 1)")
+  end
+
+end
+

@@ -160,8 +160,8 @@ class Abstract_page
     expect(is_displayed?(css: button2_path)).to eql false
   end
 
-  def screenShot
-    @@driver.save_screenshot("./screenshots/screen.png")
+  def screenShot(screenShotName)
+    @@driver.save_screenshot("./screenshots/"+screenShotName)
   end
 end
 
