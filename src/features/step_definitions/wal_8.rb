@@ -8,7 +8,7 @@ class Wal_8 < Abstract_page
   end
 
   def navigateToWal_9
-    sleep 5
+    sleep 6
     @@driver.find_element(:id => "forward_button").click
     return Wal_9.new(@@driver)
   end
