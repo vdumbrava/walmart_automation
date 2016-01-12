@@ -126,8 +126,8 @@
       <file leaf-file-name="my_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50769234">
-              <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.5811966">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding>
                 <element signature="e#968#1008#0" expanded="false" />
                 <element signature="e#1042#1129#0" expanded="false" />
@@ -172,7 +172,7 @@
         <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -858,7 +858,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452621946768</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Test for CI on linux">
+      <created>1452622055419</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1452622055419</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1327,15 +1333,15 @@
     <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50769234">
-          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.5811966">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding>
             <element signature="e#968#1008#0" expanded="false" />
             <element signature="e#1042#1129#0" expanded="false" />
