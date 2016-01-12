@@ -137,7 +137,7 @@ Given(/^I navigate to wal_1$/) do
 end
 
 Then(/^I make a print screen$/) do ||
-  sleep 5
+  sleep 120
   @page.screenShot('doi.png')
 end
 
