@@ -161,7 +161,7 @@ class Abstract_page
   end
 
   def screenShot(screenShotName)
-    @@driver.save_screenshot("./screenshots/"+screenShotName)
+    @@driver.save_screenshot("/var/lib/jenkins/jobs/AtWork_AutomatedTest/workspace/src/screenshots/"+screenShotName)
   end
 end
 
