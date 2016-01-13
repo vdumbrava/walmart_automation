@@ -133,6 +133,8 @@ end
 
 Given(/^I navigate to wal_1$/) do
   @page.navigateToModuleMatrixPage
+      .navigateToWal_1
+      .navigateToWal_2
       .navigateToWal_3
 end
 
