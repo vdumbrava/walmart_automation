@@ -10,6 +10,7 @@ class HomePage < Abstract_page
 
   def navigateToWal_1
     @@driver.switch_to.frame (@@driver.find_element :class => "content-iframe")
+    sleep 10
     waitBeforeClick(:link_text, "Building Emergency Savings", 10)
     muteVolume
     return Wal_1.new(@@driver)

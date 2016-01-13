@@ -24,7 +24,7 @@ class Abstract_page
   def navigateToModuleMatrixPage
     @@driver.manage.window.maximize
     @@driver.navigate.to("http://tim-vm-020/default.html")
-    sleep 5
+    sleep 7
     return HomePage.new(@@driver)
   end
 

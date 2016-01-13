@@ -133,11 +133,11 @@ end
 
 Given(/^I navigate to wal_1$/) do
   @page.navigateToModuleMatrixPage
-      .navigateToWal_1
+      .navigateToWal_3
 end
 
 Then(/^I make a print screen$/) do ||
-  sleep 420
+  sleep 2
   @page.screenShot('doi.png')
 end
 
