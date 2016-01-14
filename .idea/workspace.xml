@@ -4,7 +4,6 @@
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
     <ignored path="Walmart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +25,7 @@
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_different_numbers_of_selections.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with different numbers of selections Coverage Results" MODIFIED="1450365437988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_13__select_each_category_and_check_uncheck_1_step__4_.coverage" NAME="Scenario: To navigate to wal_13, select each category and check/uncheck 1 step (4) Coverage Results" MODIFIED="1452173679903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__4_.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality (4) Coverage Results" MODIFIED="1449583359942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
-    <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_1_and_select_each_category__1_.coverage" NAME="Scenario: To navigate to wal_1 and select each category (1) Coverage Results" MODIFIED="1452779977571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
+    <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_1_and_select_each_category__1_.coverage" NAME="Scenario: To navigate to wal_1 and select each category (1) Coverage Results" MODIFIED="1452781229024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality__3_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality (3) Coverage Results" MODIFIED="1449844869508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Run_spec__test_spec___Walmart.coverage" NAME="Run spec 'test_spec': Walmart Coverage Results" MODIFIED="1446737944561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_13_and_select_each_category__2_.coverage" NAME="Scenario: To navigate to wal_13 and select each category (2) Coverage Results" MODIFIED="1450452498951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
@@ -91,8 +90,8 @@
       <file leaf-file-name="abstract_page.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33224756">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.723127">
+              <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
               <folding>
                 <element signature="e#727#778#0" expanded="false" />
                 <element signature="e#1004#1273#0" expanded="false" />
@@ -267,8 +266,8 @@
         <option value="$PROJECT_DIR$/src/features/step_definitions/wal_2.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/wal_1.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/home_page.rb" />
-        <option value="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
         <option value="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
+        <option value="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
       </list>
     </option>
   </component>
@@ -929,13 +928,16 @@
       <option name="project" value="LOCAL" />
       <updated>1452779702450</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Test for CI on linux">
+      <created>1452780090085</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1452780090085</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__To_navigate_to_wal_13,_select_each_category_and_check_uncheck_check_steps - 2016.01.07 at 17h 28m 08s.xml">
-      <configuration name="Scenario: To navigate to wal_13, select each category and check/uncheck/check steps" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__To_navigate_to_wal_13,_select_each_category_and_check_uncheck_check_steps - 2016.01.07 at 17h 30m 44s.xml">
       <configuration name="Scenario: To navigate to wal_13, select each category and check/uncheck/check steps" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -963,6 +965,9 @@
     <history-entry file="Scenario__To_navigate_to_wal_1_and_select_each_category_(1) - 2016.01.14 at 16h 00m 26s.xml">
       <configuration name="Scenario: To navigate to wal_1 and select each category (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__To_navigate_to_wal_1_and_select_each_category_(1) - 2016.01.14 at 16h 20m 31s.xml">
+      <configuration name="Scenario: To navigate to wal_1 and select each category (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -974,7 +979,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1484,8 +1489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33224756">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.723127">
+          <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
           <folding>
             <element signature="e#727#778#0" expanded="false" />
             <element signature="e#1004#1273#0" expanded="false" />
