@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Walmart.iml" afterPath="$PROJECT_DIR$/.idea/Walmart.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
@@ -27,7 +26,7 @@
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality_with_different_numbers_of_selections.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality with different numbers of selections Coverage Results" MODIFIED="1450365437988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_13__select_each_category_and_check_uncheck_1_step__4_.coverage" NAME="Scenario: To navigate to wal_13, select each category and check/uncheck 1 step (4) Coverage Results" MODIFIED="1452173679903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_2_and_test_the_slider_functionality__4_.coverage" NAME="Scenario: To navigate to wal_2 and test the slider functionality (4) Coverage Results" MODIFIED="1449583359942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
-    <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_1_and_select_each_category__1_.coverage" NAME="Scenario: To navigate to wal_1 and select each category (1) Coverage Results" MODIFIED="1452777953030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
+    <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_1_and_select_each_category__1_.coverage" NAME="Scenario: To navigate to wal_1 and select each category (1) Coverage Results" MODIFIED="1452779977571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_5_and_test_the_selection_functionality__3_.coverage" NAME="Scenario: To navigate to wal_5 and test the selection functionality (3) Coverage Results" MODIFIED="1449844869508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Run_spec__test_spec___Walmart.coverage" NAME="Run spec 'test_spec': Walmart Coverage Results" MODIFIED="1446737944561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" MODULE_NAME="Walmart" />
     <SUITE FILE_PATH="coverage/Walmart@Scenario__To_navigate_to_wal_13_and_select_each_category__2_.coverage" NAME="Scenario: To navigate to wal_13 and select each category (2) Coverage Results" MODIFIED="1450452498951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="Walmart" />
@@ -98,7 +97,6 @@
                 <element signature="e#727#778#0" expanded="false" />
                 <element signature="e#1004#1273#0" expanded="false" />
                 <element signature="e#1111#1217#0" expanded="false" />
-                <element signature="e#1534#1786#0" expanded="false" />
                 <element signature="e#1623#1726#0" expanded="false" />
                 <element signature="e#1790#2159#0" expanded="false" />
                 <element signature="e#2881#3137#0" expanded="false" />
@@ -182,30 +180,30 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding>
-                <element signature="e#1049#1136#0" expanded="false" />
-                <element signature="e#1180#1259#0" expanded="false" />
-                <element signature="e#1295#1377#0" expanded="false" />
-                <element signature="e#1416#1833#0" expanded="false" />
-                <element signature="e#2057#2676#0" expanded="false" />
-                <element signature="e#2729#3006#0" expanded="false" />
-                <element signature="e#2781#2926#0" expanded="false" />
-                <element signature="e#3038#3071#0" expanded="false" />
-                <element signature="e#3124#3154#0" expanded="false" />
-                <element signature="e#3189#3572#0" expanded="false" />
-                <element signature="e#3597#3692#0" expanded="false" />
-                <element signature="e#3728#3856#0" expanded="false" />
-                <element signature="e#3888#4349#0" expanded="false" />
-                <element signature="e#4400#4789#0" expanded="false" />
-                <element signature="e#5062#5963#0" expanded="false" />
-                <element signature="e#5675#5957#0" expanded="false" />
-                <element signature="e#6033#6809#0" expanded="false" />
-                <element signature="e#6628#6804#0" expanded="false" />
-                <element signature="e#6864#7442#0" expanded="false" />
-                <element signature="e#6929#7438#0" expanded="false" />
-                <element signature="e#7519#7876#0" expanded="false" />
-                <element signature="e#7554#7872#1" expanded="false" />
+                <element signature="e#1059#1146#0" expanded="false" />
+                <element signature="e#1190#1269#0" expanded="false" />
+                <element signature="e#1305#1387#0" expanded="false" />
+                <element signature="e#1426#1843#0" expanded="false" />
+                <element signature="e#2067#2686#0" expanded="false" />
+                <element signature="e#2739#3016#0" expanded="false" />
+                <element signature="e#2791#2936#0" expanded="false" />
+                <element signature="e#3048#3081#0" expanded="false" />
+                <element signature="e#3134#3164#0" expanded="false" />
+                <element signature="e#3199#3582#0" expanded="false" />
+                <element signature="e#3607#3702#0" expanded="false" />
+                <element signature="e#3738#3866#0" expanded="false" />
+                <element signature="e#3898#4359#0" expanded="false" />
+                <element signature="e#4410#4799#0" expanded="false" />
+                <element signature="e#5072#5973#0" expanded="false" />
+                <element signature="e#5685#5967#0" expanded="false" />
+                <element signature="e#6043#6819#0" expanded="false" />
+                <element signature="e#6638#6814#0" expanded="false" />
+                <element signature="e#6874#7452#0" expanded="false" />
+                <element signature="e#6939#7448#0" expanded="false" />
+                <element signature="e#7529#7886#0" expanded="false" />
+                <element signature="e#7564#7882#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -925,16 +923,16 @@
       <option name="project" value="LOCAL" />
       <updated>1452777530177</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Test for CI on linux">
+      <created>1452779702450</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1452779702450</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__To_navigate_to_wal_13,_select_each_category_and_check_uncheck_1_step - 2016.01.07 at 18h 04m 17s.xml">
-      <configuration name="Scenario: To navigate to wal_13, select each category and check/uncheck 1 step" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__To_navigate_to_wal_13,_select_each_category_and_check_uncheck_check_steps - 2016.01.07 at 17h 24m 41s.xml">
-      <configuration name="Scenario: To navigate to wal_13, select each category and check/uncheck/check steps" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__To_navigate_to_wal_13,_select_each_category_and_check_uncheck_check_steps - 2016.01.07 at 17h 28m 08s.xml">
       <configuration name="Scenario: To navigate to wal_13, select each category and check/uncheck/check steps" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -957,6 +955,12 @@
       <configuration name="Scenario: To navigate to wal_1 and select each category" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__To_navigate_to_wal_1_and_select_each_category_(1) - 2016.01.14 at 15h 26m 44s.xml">
+      <configuration name="Scenario: To navigate to wal_1 and select each category (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__To_navigate_to_wal_1_and_select_each_category_(1) - 2016.01.14 at 15h 59m 30s.xml">
+      <configuration name="Scenario: To navigate to wal_1 and select each category (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__To_navigate_to_wal_1_and_select_each_category_(1) - 2016.01.14 at 16h 00m 26s.xml">
       <configuration name="Scenario: To navigate to wal_1 and select each category (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
@@ -1023,7 +1027,6 @@
             <element signature="e#727#778#0" expanded="false" />
             <element signature="e#1004#1273#0" expanded="false" />
             <element signature="e#1111#1217#0" expanded="false" />
-            <element signature="e#1534#1786#0" expanded="false" />
             <element signature="e#1623#1726#0" expanded="false" />
             <element signature="e#1790#2159#0" expanded="false" />
             <element signature="e#2881#3137#0" expanded="false" />
@@ -1061,28 +1064,28 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1049#1136#0" expanded="false" />
-            <element signature="e#1180#1259#0" expanded="false" />
-            <element signature="e#1295#1377#0" expanded="false" />
-            <element signature="e#1416#1833#0" expanded="false" />
-            <element signature="e#2057#2676#0" expanded="false" />
-            <element signature="e#2729#3006#0" expanded="false" />
-            <element signature="e#2781#2926#0" expanded="false" />
-            <element signature="e#3038#3071#0" expanded="false" />
-            <element signature="e#3124#3154#0" expanded="false" />
-            <element signature="e#3189#3572#0" expanded="false" />
-            <element signature="e#3597#3692#0" expanded="false" />
-            <element signature="e#3728#3856#0" expanded="false" />
-            <element signature="e#3888#4349#0" expanded="false" />
-            <element signature="e#4400#4789#0" expanded="false" />
-            <element signature="e#5062#5963#0" expanded="false" />
-            <element signature="e#5675#5957#0" expanded="false" />
-            <element signature="e#6033#6809#0" expanded="false" />
-            <element signature="e#6628#6804#0" expanded="false" />
-            <element signature="e#6864#7442#0" expanded="false" />
-            <element signature="e#6929#7438#0" expanded="false" />
-            <element signature="e#7519#7876#0" expanded="false" />
-            <element signature="e#7554#7872#1" expanded="false" />
+            <element signature="e#1059#1146#0" expanded="false" />
+            <element signature="e#1190#1269#0" expanded="false" />
+            <element signature="e#1305#1387#0" expanded="false" />
+            <element signature="e#1426#1843#0" expanded="false" />
+            <element signature="e#2067#2686#0" expanded="false" />
+            <element signature="e#2739#3016#0" expanded="false" />
+            <element signature="e#2791#2936#0" expanded="false" />
+            <element signature="e#3048#3081#0" expanded="false" />
+            <element signature="e#3134#3164#0" expanded="false" />
+            <element signature="e#3199#3582#0" expanded="false" />
+            <element signature="e#3607#3702#0" expanded="false" />
+            <element signature="e#3738#3866#0" expanded="false" />
+            <element signature="e#3898#4359#0" expanded="false" />
+            <element signature="e#4410#4799#0" expanded="false" />
+            <element signature="e#5072#5973#0" expanded="false" />
+            <element signature="e#5685#5967#0" expanded="false" />
+            <element signature="e#6043#6819#0" expanded="false" />
+            <element signature="e#6638#6814#0" expanded="false" />
+            <element signature="e#6874#7452#0" expanded="false" />
+            <element signature="e#6939#7448#0" expanded="false" />
+            <element signature="e#7529#7886#0" expanded="false" />
+            <element signature="e#7564#7882#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1143,7 +1146,6 @@
             <element signature="e#727#778#0" expanded="false" />
             <element signature="e#1004#1273#0" expanded="false" />
             <element signature="e#1111#1217#0" expanded="false" />
-            <element signature="e#1534#1786#0" expanded="false" />
             <element signature="e#1623#1726#0" expanded="false" />
             <element signature="e#1790#2159#0" expanded="false" />
             <element signature="e#2881#3137#0" expanded="false" />
@@ -1452,30 +1454,30 @@
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
-            <element signature="e#1049#1136#0" expanded="false" />
-            <element signature="e#1180#1259#0" expanded="false" />
-            <element signature="e#1295#1377#0" expanded="false" />
-            <element signature="e#1416#1833#0" expanded="false" />
-            <element signature="e#2057#2676#0" expanded="false" />
-            <element signature="e#2729#3006#0" expanded="false" />
-            <element signature="e#2781#2926#0" expanded="false" />
-            <element signature="e#3038#3071#0" expanded="false" />
-            <element signature="e#3124#3154#0" expanded="false" />
-            <element signature="e#3189#3572#0" expanded="false" />
-            <element signature="e#3597#3692#0" expanded="false" />
-            <element signature="e#3728#3856#0" expanded="false" />
-            <element signature="e#3888#4349#0" expanded="false" />
-            <element signature="e#4400#4789#0" expanded="false" />
-            <element signature="e#5062#5963#0" expanded="false" />
-            <element signature="e#5675#5957#0" expanded="false" />
-            <element signature="e#6033#6809#0" expanded="false" />
-            <element signature="e#6628#6804#0" expanded="false" />
-            <element signature="e#6864#7442#0" expanded="false" />
-            <element signature="e#6929#7438#0" expanded="false" />
-            <element signature="e#7519#7876#0" expanded="false" />
-            <element signature="e#7554#7872#1" expanded="false" />
+            <element signature="e#1059#1146#0" expanded="false" />
+            <element signature="e#1190#1269#0" expanded="false" />
+            <element signature="e#1305#1387#0" expanded="false" />
+            <element signature="e#1426#1843#0" expanded="false" />
+            <element signature="e#2067#2686#0" expanded="false" />
+            <element signature="e#2739#3016#0" expanded="false" />
+            <element signature="e#2791#2936#0" expanded="false" />
+            <element signature="e#3048#3081#0" expanded="false" />
+            <element signature="e#3134#3164#0" expanded="false" />
+            <element signature="e#3199#3582#0" expanded="false" />
+            <element signature="e#3607#3702#0" expanded="false" />
+            <element signature="e#3738#3866#0" expanded="false" />
+            <element signature="e#3898#4359#0" expanded="false" />
+            <element signature="e#4410#4799#0" expanded="false" />
+            <element signature="e#5072#5973#0" expanded="false" />
+            <element signature="e#5685#5967#0" expanded="false" />
+            <element signature="e#6043#6819#0" expanded="false" />
+            <element signature="e#6638#6814#0" expanded="false" />
+            <element signature="e#6874#7452#0" expanded="false" />
+            <element signature="e#6939#7448#0" expanded="false" />
+            <element signature="e#7529#7886#0" expanded="false" />
+            <element signature="e#7564#7882#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1488,7 +1490,6 @@
             <element signature="e#727#778#0" expanded="false" />
             <element signature="e#1004#1273#0" expanded="false" />
             <element signature="e#1111#1217#0" expanded="false" />
-            <element signature="e#1534#1786#0" expanded="false" />
             <element signature="e#1623#1726#0" expanded="false" />
             <element signature="e#1790#2159#0" expanded="false" />
             <element signature="e#2881#3137#0" expanded="false" />

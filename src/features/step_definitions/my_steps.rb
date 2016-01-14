@@ -31,6 +31,7 @@ end
 
 After do
   #@page.unMuteVolume
+  sleep 2
   @page.quit_page
 end
 
