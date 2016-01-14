@@ -17,7 +17,7 @@ class Abstract_page
     @@driver = driver
   end
 
-  def quit
+  def quit_page
     @@driver.quit
   end
 

@@ -31,7 +31,7 @@ end
 
 After do
   #@page.unMuteVolume
-  @page.quit
+  @page.quit_page
 end
 
 
