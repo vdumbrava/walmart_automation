@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c5564-79c5-4cda-aced-3920419134b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Walmart.iml" afterPath="$PROJECT_DIR$/.idea/Walmart.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/src/features/step_definitions/my_steps.rb" />
     </list>
@@ -92,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="58" />
               <folding>
                 <element signature="e#727#778#0" expanded="false" />
                 <element signature="e#782#814#0" expanded="false" />
@@ -128,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -137,33 +136,31 @@
       <file leaf-file-name="my_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36239317">
-              <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.45551983">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
-                <element signature="e#968#1008#0" expanded="false" />
-                <element signature="e#1042#1129#0" expanded="false" />
-                <element signature="e#1173#1252#0" expanded="false" />
-                <element signature="e#1288#1370#0" expanded="false" />
-                <element signature="e#1409#1826#0" expanded="false" />
-                <element signature="e#1860#2016#0" expanded="false" />
-                <element signature="e#2050#2669#0" expanded="false" />
-                <element signature="e#2722#2999#0" expanded="false" />
-                <element signature="e#2774#2919#0" expanded="false" />
-                <element signature="e#3031#3064#0" expanded="false" />
-                <element signature="e#3117#3147#0" expanded="false" />
-                <element signature="e#3182#3565#0" expanded="false" />
-                <element signature="e#3590#3685#0" expanded="false" />
-                <element signature="e#3721#3849#0" expanded="false" />
-                <element signature="e#3881#4342#0" expanded="false" />
-                <element signature="e#4393#4782#0" expanded="false" />
-                <element signature="e#5055#5956#0" expanded="false" />
-                <element signature="e#5668#5950#0" expanded="false" />
-                <element signature="e#6026#6802#0" expanded="false" />
-                <element signature="e#6621#6797#0" expanded="false" />
-                <element signature="e#6857#7435#0" expanded="false" />
-                <element signature="e#6922#7431#0" expanded="false" />
-                <element signature="e#7512#7869#0" expanded="false" />
-                <element signature="e#7547#7865#1" expanded="false" />
+                <element signature="e#1044#1131#0" expanded="false" />
+                <element signature="e#1175#1254#0" expanded="false" />
+                <element signature="e#1290#1372#0" expanded="false" />
+                <element signature="e#1411#1828#0" expanded="false" />
+                <element signature="e#2052#2671#0" expanded="false" />
+                <element signature="e#2724#3001#0" expanded="false" />
+                <element signature="e#2776#2921#0" expanded="false" />
+                <element signature="e#3033#3066#0" expanded="false" />
+                <element signature="e#3119#3149#0" expanded="false" />
+                <element signature="e#3184#3567#0" expanded="false" />
+                <element signature="e#3592#3687#0" expanded="false" />
+                <element signature="e#3723#3851#0" expanded="false" />
+                <element signature="e#3883#4344#0" expanded="false" />
+                <element signature="e#4395#4784#0" expanded="false" />
+                <element signature="e#5057#5958#0" expanded="false" />
+                <element signature="e#5670#5952#0" expanded="false" />
+                <element signature="e#6028#6804#0" expanded="false" />
+                <element signature="e#6623#6799#0" expanded="false" />
+                <element signature="e#6859#7437#0" expanded="false" />
+                <element signature="e#6924#7433#0" expanded="false" />
+                <element signature="e#7514#7871#0" expanded="false" />
+                <element signature="e#7549#7867#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -207,7 +204,7 @@
         <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -338,7 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -418,6 +414,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,7 +422,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/features" />
   </component>
   <component name="RecentsManager">
@@ -917,7 +913,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452671386462</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Test for CI on linux">
+      <created>1452674178470</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1452674178470</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -953,28 +955,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12153518" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123667374" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1002,6 +1004,125 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/screenshots/doi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#727#778#0" expanded="false" />
+            <element signature="e#782#814#0" expanded="false" />
+            <element signature="e#999#1268#0" expanded="false" />
+            <element signature="e#1106#1212#0" expanded="false" />
+            <element signature="e#1529#1781#0" expanded="false" />
+            <element signature="e#1618#1721#0" expanded="false" />
+            <element signature="e#1785#2154#0" expanded="false" />
+            <element signature="e#2876#3132#0" expanded="false" />
+            <element signature="e#3007#3109#0" expanded="false" />
+            <element signature="e#3259#4014#0" expanded="false" />
+            <element signature="e#3465#3617#0" expanded="false" />
+            <element signature="e#3722#4008#0" expanded="false" />
+            <element signature="e#3755#4000#1" expanded="false" />
+            <element signature="e#4018#4103#0" expanded="false" />
+            <element signature="e#4212#4576#0" expanded="false" />
+            <element signature="e#4404#4455#0" expanded="false" />
+            <element signature="e#4417#4453#0" expanded="false" />
+            <element signature="e#4474#4525#0" expanded="false" />
+            <element signature="e#4487#4523#0" expanded="false" />
+            <element signature="e#4580#4785#0" expanded="false" />
+            <element signature="e#4789#4894#0" expanded="false" />
+            <element signature="e#4843#4888#0" expanded="false" />
+            <element signature="e#4898#5134#0" expanded="false" />
+            <element signature="e#5138#5387#0" expanded="false" />
+            <element signature="e#5391#5565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1044#1131#0" expanded="false" />
+            <element signature="e#1175#1254#0" expanded="false" />
+            <element signature="e#1290#1372#0" expanded="false" />
+            <element signature="e#1411#1828#0" expanded="false" />
+            <element signature="e#2052#2671#0" expanded="false" />
+            <element signature="e#2724#3001#0" expanded="false" />
+            <element signature="e#2776#2921#0" expanded="false" />
+            <element signature="e#3033#3066#0" expanded="false" />
+            <element signature="e#3119#3149#0" expanded="false" />
+            <element signature="e#3184#3567#0" expanded="false" />
+            <element signature="e#3592#3687#0" expanded="false" />
+            <element signature="e#3723#3851#0" expanded="false" />
+            <element signature="e#3883#4344#0" expanded="false" />
+            <element signature="e#4395#4784#0" expanded="false" />
+            <element signature="e#5057#5958#0" expanded="false" />
+            <element signature="e#5670#5952#0" expanded="false" />
+            <element signature="e#6028#6804#0" expanded="false" />
+            <element signature="e#6623#6799#0" expanded="false" />
+            <element signature="e#6859#7437#0" expanded="false" />
+            <element signature="e#6924#7433#0" expanded="false" />
+            <element signature="e#7514#7871#0" expanded="false" />
+            <element signature="e#7549#7867#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/action_plan.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#666#969#0" expanded="false" />
+            <element signature="e#973#1170#0" expanded="false" />
+            <element signature="e#1174#1363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screenshots/doi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_6.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1075,9 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="e#168#215#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,7 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49598715">
           <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4414125">
           <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33226323">
           <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.3579454">
           <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="64" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028911564">
           <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028911564">
           <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028911564">
           <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028911564">
           <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028911564">
           <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,9 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-          <folding>
-            <element signature="e#219#344#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,7 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,9 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-          <folding>
-            <element signature="e#168#215#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1240,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9208075">
           <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60714287">
           <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1256,7 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23247863">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27687296">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27687296">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60912055">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,7 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41530946">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,10 +1408,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#666#969#0" expanded="false" />
+            <element signature="e#973#1170#0" expanded="false" />
+            <element signature="e#1174#1363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="58" />
           <folding>
             <element signature="e#727#778#0" expanded="false" />
             <element signature="e#782#814#0" expanded="false" />
@@ -1355,30 +1462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#666#969#0" expanded="false" />
-            <element signature="e#973#1170#0" expanded="false" />
-            <element signature="e#1174#1363#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/step_definitions/wal_1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1386,40 +1473,38 @@
     <entry file="file://$PROJECT_DIR$/src/features/KC.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/step_definitions/my_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36239317">
-          <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.45551983">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
-            <element signature="e#968#1008#0" expanded="false" />
-            <element signature="e#1042#1129#0" expanded="false" />
-            <element signature="e#1173#1252#0" expanded="false" />
-            <element signature="e#1288#1370#0" expanded="false" />
-            <element signature="e#1409#1826#0" expanded="false" />
-            <element signature="e#1860#2016#0" expanded="false" />
-            <element signature="e#2050#2669#0" expanded="false" />
-            <element signature="e#2722#2999#0" expanded="false" />
-            <element signature="e#2774#2919#0" expanded="false" />
-            <element signature="e#3031#3064#0" expanded="false" />
-            <element signature="e#3117#3147#0" expanded="false" />
-            <element signature="e#3182#3565#0" expanded="false" />
-            <element signature="e#3590#3685#0" expanded="false" />
-            <element signature="e#3721#3849#0" expanded="false" />
-            <element signature="e#3881#4342#0" expanded="false" />
-            <element signature="e#4393#4782#0" expanded="false" />
-            <element signature="e#5055#5956#0" expanded="false" />
-            <element signature="e#5668#5950#0" expanded="false" />
-            <element signature="e#6026#6802#0" expanded="false" />
-            <element signature="e#6621#6797#0" expanded="false" />
-            <element signature="e#6857#7435#0" expanded="false" />
-            <element signature="e#6922#7431#0" expanded="false" />
-            <element signature="e#7512#7869#0" expanded="false" />
-            <element signature="e#7547#7865#1" expanded="false" />
+            <element signature="e#1044#1131#0" expanded="false" />
+            <element signature="e#1175#1254#0" expanded="false" />
+            <element signature="e#1290#1372#0" expanded="false" />
+            <element signature="e#1411#1828#0" expanded="false" />
+            <element signature="e#2052#2671#0" expanded="false" />
+            <element signature="e#2724#3001#0" expanded="false" />
+            <element signature="e#2776#2921#0" expanded="false" />
+            <element signature="e#3033#3066#0" expanded="false" />
+            <element signature="e#3119#3149#0" expanded="false" />
+            <element signature="e#3184#3567#0" expanded="false" />
+            <element signature="e#3592#3687#0" expanded="false" />
+            <element signature="e#3723#3851#0" expanded="false" />
+            <element signature="e#3883#4344#0" expanded="false" />
+            <element signature="e#4395#4784#0" expanded="false" />
+            <element signature="e#5057#5958#0" expanded="false" />
+            <element signature="e#5670#5952#0" expanded="false" />
+            <element signature="e#6028#6804#0" expanded="false" />
+            <element signature="e#6623#6799#0" expanded="false" />
+            <element signature="e#6859#7437#0" expanded="false" />
+            <element signature="e#6924#7433#0" expanded="false" />
+            <element signature="e#7514#7871#0" expanded="false" />
+            <element signature="e#7549#7867#1" expanded="false" />
           </folding>
         </state>
       </provider>
